@@ -1,0 +1,29 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+kubeconfig*
+
+# Infrastructure state
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Local Kubernetes and development artifacts
+.kind/
+.kube/
+.DS_Store
+.vscode/
+.idea/
+
+# Build and test output
+build/
+dist/
+coverage/
+.pytest_cache/
+__pycache__/
+*.pyc
