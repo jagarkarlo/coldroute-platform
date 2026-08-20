@@ -1,5 +1,10 @@
 # ColdRoute Platform
 
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-3FB950?style=for-the-badge" />
+</p>
+
 ColdRoute Platform is a fictional, production-shaped Kubernetes platform for
 processing and operating cold-chain telemetry workloads.
 
