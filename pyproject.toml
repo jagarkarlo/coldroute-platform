@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coldroute-platform"
+version = "0.1.0"
+description = "Cold-chain telemetry simulator and platform engineering reference project"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Karlo Jagar" },
+]
+dependencies = []
+
+[project.scripts]
+coldroute-simulate = "coldroute_simulator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

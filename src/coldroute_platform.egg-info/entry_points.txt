@@ -1,0 +1,2 @@
+[console_scripts]
+coldroute-simulate = coldroute_simulator.cli:main

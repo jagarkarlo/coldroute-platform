@@ -1,3 +1,12 @@
+Metadata-Version: 2.4
+Name: coldroute-platform
+Version: 0.1.0
+Summary: Cold-chain telemetry simulator and platform engineering reference project
+Author: Karlo Jagar
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
 # ColdRoute Platform
 
 ColdRoute Platform is a fictional, production-shaped Kubernetes platform for
